@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+
+    tools:context=".MainActivity"
+    android:background="@color/light_grey">
+
+
+    <ImageButton
+        android:layout_width="259dp"
+        android:layout_height="66dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Text_email"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Text_password"
+        android:layout_below="@+id/Text_email"
+        android:layout_alignLeft="@+id/Text_email"
+        android:layout_alignStart="@+id/Text_email"
+        android:layout_alignRight="@+id/Text_email"
+        android:layout_alignEnd="@+id/Text_email" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sing_in"
+        android:id="@+id/button_sendPost"
+        android:layout_below="@+id/Text_password"
+        android:layout_alignLeft="@+id/Text_password"
+        android:layout_alignStart="@+id/Text_password"
+        android:layout_marginTop="42dp"
+        android:layout_alignRight="@+id/Text_password"
+        android:layout_alignEnd="@+id/Text_password"
+        android:onClick="singInClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Power by Nietzsche Enterprise"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_us"
+        android:id="@+id/button2"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="openRegistView"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+
+</RelativeLayout>
+

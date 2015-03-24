@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_title"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        android:background="@color/topNaviBar"
+        android:paddingTop="0dp"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:text="Register"
+            android:id="@+id/topNaviBar"
+            android:paddingTop="0dp"
+            android:textColor="@color/topNaviBarTitleColor"
+            android:textAlignment="center"
+            />
+        
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_first"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/first_name_textView"
+            android:layout_width="111dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="First name :" />
+
+        <EditText
+            android:id="@+id/first_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_last"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_first"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/las_name_textView"
+            android:layout_width="111dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last name :" />
+
+        <EditText
+            android:id="@+id/last_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_email"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_last"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/account_email_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Account Email :" />
+
+        <EditText
+            android:id="@+id/account_email_editText"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_password"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/password_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Password :" />
+
+        <EditText
+            android:id="@+id/password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_r_password"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/r_password_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Re-type Password :" />
+
+        <EditText
+            android:id="@+id/r_password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_gateway"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_r_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/gateway_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Gateway number :" />
+
+
+        <EditText
+            android:id="@+id/gateway_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_language"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_list_height"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout_gateway"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/gateway_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Choose Language :" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/country_arrays"
+            android:prompt="@string/country_prompt" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
