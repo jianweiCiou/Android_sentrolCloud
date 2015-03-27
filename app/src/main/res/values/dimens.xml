@@ -10,4 +10,11 @@
 
 
 
+    //登入頁
+    <dimen name="loginBtnHeight">42dp</dimen>
+    <dimen name="loginBtnRadious">21dp</dimen>
+    <dimen name="joinBtnHeight">30dp</dimen>
+    <dimen name="joinBtnRadious">15dp</dimen>
+
+
 </resources>

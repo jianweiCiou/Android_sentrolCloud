@@ -15,11 +15,29 @@
 
 
 
+
+
     <string name="str_iv_flag">Flag</string>
 
-   //登入頁
+    //topNaviTitle
+    <string name="topNaviTitle_Register">Register</string>
+    <string name="topNaviTitle_Dashboard">Dashboard</string>
+    <string name="topNaviTitle_Setting">Setting</string>
+    <string name="topNaviTitle_Account">Account</string>
+    <string name="topNaviTitle_Event">Event</string>
+
+
+    //登入頁
     <string name="Sing_in">Sing in</string>
     <string name="join_us">join us</string>
+    <string name="Email">Email</string>
+    <string name="password">password</string>
+    <string name="LoginError">Login Error</string>
+
+
+
+
+
 
 
     //註冊選項
@@ -35,7 +53,21 @@
         <item>日本語</item>
     </string-array>
 
+    <string-array name="account_list">
+        <item>General</item>
+        <item>Notification</item>
+        <item>Terms and Policy</item>
+        <item>Feedback</item>
+        <item>Subscription Plan</item>
+        <item>Message</item>
+        <item>Scanner</item>
+        <item>Sentrol Shop</item>
+        <item>Logout</item>
+    </string-array>
 
 
+
+    //狀態顯示
+    <string name="No_networking">No networking</string>
 
 </resources>

@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/macmini/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-4575f0880dc64f9ce6f7484722c676ca7db36e3b.jar" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-63e1be881e592c45cc39607df8f85e41e5c823d7.jar" />
     </item>
     <item
-        jar="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/macmini/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/pre-dexed/debug/classes-df7508eca8d3e4132167f9213fe8a5caf2d78d07.jar" />
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-4c940b76eec4404fd7d0464705e606370b583192.jar" />
     </item>
     <item
-        jar="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8299e59e681b576faa129428679008390489ed92.jar" />
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/pre-dexed/debug/classes-0a2ae2cde57adffc50964d48ce26dfc28c30bbbf.jar" />
     </item>
     <item
-        jar="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jar="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/macmini/AndroidStudioProjects/sentrolcloud/app/build/intermediates/pre-dexed/debug/classes-44642c109d2f5c423b8c7b5c1e003eaf8d1f71c7.jar" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/macmini/AndroidStudioProjects/Android_sentrolcloud/app/build/intermediates/pre-dexed/debug/classes-8588535db5edd1b3fd1a4254d3f11b4b14c8b9c5.jar" />
     </item>
 
 </items>

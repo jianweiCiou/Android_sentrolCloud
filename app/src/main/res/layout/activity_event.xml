@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashActivity"
-    >
-
-
+    tools:context=".EventActivity">
 
 
 
@@ -27,7 +25,7 @@
             android:layout_width="52dp"
             android:layout_height="47dp"
             android:layout_centerInParent="true"
-            android:background="@mipmap/bottommenudashboardclick"
+            android:background="@mipmap/bottommenudashboard"
             android:onClick="openDashboard"
             />
         <ImageButton
@@ -51,12 +49,9 @@
             android:layout_width="52dp"
             android:layout_height="47dp"
             android:layout_centerInParent="true"
-            android:background="@mipmap/bottommenuevent"
-            android:onClick="openEvent"
+            android:background="@mipmap/bottommenueventclick"
             />
     </LinearLayout>
-
-
 
 
 
@@ -70,12 +65,11 @@
         android:textAlignment="center">
 
 
-
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="47dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="DashBoard"
+            android:text="Event"
             android:id="@+id/topNaviBar"
             android:paddingTop="0dp"
             android:textColor="@color/topNaviBarTitleColor"
@@ -84,20 +78,4 @@
     </LinearLayout>
 
 
-    <ListView android:id="@+id/dashBoard_list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".DashboardActivity"
-        android:layout_above="@+id/linearLayout"
-        android:layout_below="@+id/linearLayout2" />
-
-
-
-    <ImageButton
-        android:layout_width="44dp"
-        android:layout_height="44dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/dashmenu"
-
-        />
 </RelativeLayout>
